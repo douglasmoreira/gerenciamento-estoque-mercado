@@ -13,6 +13,12 @@ public class EstoqueLimpeza extends Estoque{
 	public boolean cadastraProduto(Produto produto) {
 		return super.cadastraProduto(produtosLimpeza);
 	}
+
+	@Override
+	public boolean gravaListaProdutos(Map<Integer, Produto> produtos) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 	
 }

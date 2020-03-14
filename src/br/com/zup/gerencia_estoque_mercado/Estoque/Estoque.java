@@ -5,7 +5,7 @@ import java.util.Map;
 
 import br.com.zup.gerencia_estoque_mercado.Produto.Produto;
 
-public class Estoque {
+public abstract class Estoque {
 	
 	Map<Integer, Produto> produtos = new HashMap<Integer, Produto>();
 
@@ -64,9 +64,7 @@ public class Estoque {
 		return produtos.get(codigoDeBarras);
 	}
 	
-	public boolean gravaListaProdutos() {
-		return true;
-	}
+	public abstract boolean gravaListaProdutos(Map<Integer, Produto> produtos);
 	
 	public int quantidadeProdutosEmEstoque() {
 		return produtos.size();
