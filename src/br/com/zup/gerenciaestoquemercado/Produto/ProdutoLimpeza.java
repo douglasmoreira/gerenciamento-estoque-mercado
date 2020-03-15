@@ -1,11 +1,12 @@
-package br.com.zup.gerencia_estoque_mercado.Produto;
+package br.com.zup.gerenciaestoquemercado.Produto;
 
 public class ProdutoLimpeza extends Produto {
 
 	private String aroma;
 	private String parteDaCasa;
 
-	 public ProdutoLimpeza(String nome, float precoVenda, float precoCusto, int codigoDeBarras, String dataValidade, String aroma, String parteDaCasa) {
+	 public ProdutoLimpeza(String nome, float precoVenda, float precoCusto, int codigoDeBarras, 
+			 String dataValidade, String aroma, String parteDaCasa) {
 		super(nome, precoVenda, precoCusto, codigoDeBarras, dataValidade);
 		this.aroma = aroma;
 		this.parteDaCasa = parteDaCasa;

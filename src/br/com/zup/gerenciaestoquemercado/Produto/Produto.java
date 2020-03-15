@@ -1,4 +1,4 @@
-package br.com.zup.gerencia_estoque_mercado.Produto;
+package br.com.zup.gerenciaestoquemercado.Produto;
 
 public class Produto {
 
